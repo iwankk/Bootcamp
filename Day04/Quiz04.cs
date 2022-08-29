@@ -88,6 +88,8 @@ namespace Day04
 
             var List2 = List1.Distinct().ToList();
 
+
+
             return List2;
         }
 
