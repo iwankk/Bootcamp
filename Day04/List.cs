@@ -85,9 +85,9 @@ namespace Day04
             pl2[4] = "SQL"; // merubah data nama contoh dari sql menjadi SQL
 
 
-            foreach (var iten in pl2)
+            foreach (var item in pl2)
             {
-                Console.WriteLine($"{iten.Key}. {iten.Value}");
+                Console.WriteLine($"{item.Key }. {item.Value}");
             }
             Console.WriteLine();
 
