@@ -24,7 +24,8 @@ namespace Juragan99
 
         public override string? ToString()
         {
-            return $"{base.ToString()} | Sewa = {this.sewa.ToString("C", new CultureInfo("Id-ID"))} | Supir : {this.supir.ToString("C", new CultureInfo("Id-ID"))}| Total Revenue : {this.totalRevenue.ToString("C", new CultureInfo("Id-ID"))}";
+            return $"{base.ToString()} | Sewa = {this.sewa.ToString("C", new CultureInfo("Id-ID"))} | Supir : {this.supir.ToString("C", new CultureInfo("Id-ID"))}" +
+                $"| Total Revenue : {this.totalRevenue.ToString("C", new CultureInfo("Id-ID"))}";
         }
     }
 

@@ -38,7 +38,7 @@ ReadLine();*/
 
 /** QUIZ SOLUTION */
 
-int[] n = { 15, 2, 30, 12, 10, 5 };
+/*int[] n = { 15, 2, 30, 12, 10, 5 };*/
 //No.1
 /*WriteLine("Before Random Position");
 Arrays.DisplayArrayInt(n);
@@ -84,7 +84,9 @@ var SumAngka = QuizSolution.SumAngka(m);
 Arrays.DisplayArrayInt(o);
 Console.WriteLine();
 var Duplicate = QuizSolution.DuplicateArray(o);
-Arrays.DisplayArrayInt(Duplicate);*/
+Console.WriteLine();
+*/
+
 
 
 
@@ -105,9 +107,11 @@ Console.WriteLine();
 Matrix.DisplayMatrix(Matrix7);
 Console.WriteLine();
 */
-var EmptyMid = Matrix.EmptyMidMatrix(7,7);
+var EmptyMid = Matrix.EmptyMidMatrix(7, 7);
 Matrix.DisplayMatrix(EmptyMid);
 Console.WriteLine();
+
+
 
 
 

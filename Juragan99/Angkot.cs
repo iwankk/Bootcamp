@@ -23,7 +23,8 @@ namespace Juragan99
 
         public override string? ToString()
         {
-            return $"{base.ToString()} | Harga Tiket = {hargatiket} | Total Penumpang : {totalpen} | Total Revenue : {totalRevenue.ToString("C", new CultureInfo("Id-ID"))}";
+            return $"{base.ToString()} | Harga Tiket = {hargatiket} | Total Penumpang :" +
+                $" {totalpen} | Total Revenue : {totalRevenue.ToString("C", new CultureInfo("Id-ID"))}";
         }
     }
 }

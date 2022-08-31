@@ -104,7 +104,7 @@ namespace Day02
         {
             int[] o = hasil;
             int j = 0;
-
+            Array.Sort(hasil);
 
             for (int i = 0; i < hasil.Length; i++)
             {
@@ -112,7 +112,7 @@ namespace Day02
                 {
                     hasil[j++] = hasil[i];
                 }
-            }
+            } //remove dupllicate
             hasil[j++] = hasil[hasil.Length - 1];
             for (int i = 0; i < j; i++)
             {
