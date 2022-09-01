@@ -76,7 +76,7 @@ namespace Day04
             }
         }
 
-        //no4
+        //no3
         public static List<T> Hapus<T>(ref List<T> list)
         {
             var List1 = new List<T>();
@@ -88,11 +88,30 @@ namespace Day04
 
             var List2 = List1.Distinct().ToList();
 
-
-
             return List2;
         }
 
+        //no5
+        public static List<string> Fruits(ref List<string> Buah1,ref List<string>Buah2)
+        {
+            var b1 = Buah1;
+            var b2 = Buah2;
+            var hasil = new HashSet<string>(Buah1);
+
+
+            var hasil01 = new HashSet<string>(Buah2);
+            hasil01.IntersectWith(Buah1);
+            Console.Write("Same : ");
+            foreach (var item in hasil01)
+            {
+                Console.Write($" {item}");
+            }
+            Console.WriteLine();
+
+
+            return Buah1;
+
+        }
 
 
 

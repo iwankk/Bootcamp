@@ -49,6 +49,18 @@ var List1 = Quiz04.Hapus(ref n2);
 var List2 = Quiz04.Hapus(ref n3);
 
 
+/**/
+//No4
+
+var buah1 = new List<string> { "mangga", "apel", "melon", "pisang", "sirsak", "tomat", "nanas", "nangka", "timun", "mangga" };
+var buah2 = new List<string> { "bayam" ,"wortel","kangkung","mangga","tomat","kembang kol","nangka","timun"};
+
+
+
+
+
+
+/*
 foreach (var item in List)
 {
     Console.Write($"{item}");
@@ -124,11 +136,11 @@ WriteLine($"Total employee : {Employee.totalEmployee}");
 /*ReadLine();*/
 
 
-
+/*
 IEmployee emInf = new EmployeeImpl();
 var listOfEmps = emInf.InitDataEmployee();
 emInf.ShowList(ref listOfEmps);
 
-
+*/
 
 ReadLine();
